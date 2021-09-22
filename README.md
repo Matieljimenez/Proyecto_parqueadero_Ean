@@ -18,3 +18,9 @@ vehiculo con el que se va a ingresar al parqueadero.
 
 y por ultimo en está parte se pedirá la placa en caso de ser un carro ó moto, en caso de ser bicicleta se
 pedirá un numero de registro de la bicicleta para poder ingresarla que consta de un maximo de 8 digitos.
+
+![datos_tiempo](https://user-images.githubusercontent.com/88093015/134275485-b59882b3-c51a-4ced-9eff-fb88554ad852.PNG)
+
+Importamos la librería datatime de los recursos que nos proporciona python en el cúal pedimos la fecha para calcular los dias transcurridos cosa que nos ayuda mucho más
+adelante, támbien pedimos la hora de entrada al parqueadero y la hora de salida para calcular los minutos de estancia en el parqueadero ya que de está manera es como se
+le va a cobrar al usuario, luego se registran en dos variables que despues las pasaremos con un formato especifico para poder hacer cualculos con estos datos.
