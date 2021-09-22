@@ -137,7 +137,7 @@ cobro_moto=80
 cobro_cicla=30
 
 cc=int(input("Ingrese su CC para saber si cuenta con un descuento 🤑 : "))
-listaCc=[1019134469,1019134469,1019134469,1019134469]
+listaCc=[1003894791,1003894791,1003894791,1003894791]
 listaCc.append(cc)
 #cuentas cedulas hayprint(listaCc.count(cc))
 if(listaCc.count(cc)==5):
@@ -147,7 +147,7 @@ if(listaCc.count(cc)==5):
     elif tipo==2:
         total=TotalMinutos*cobro_moto-(TotalMinutos*cobro_moto*0.20)
     elif tipo==3:
-        total=TotalMinutos*cobro_moto-(TotalMinutos*cobro_moto*0.20)
+        total=TotalMinutos*cobro_cicla-(TotalMinutos*cobro_cicla*0.20)
     print("El total a pagar es: "+str(total))
 else:
     print("no tine descuento: ",n)
@@ -156,13 +156,13 @@ else:
     elif tipo==2:
         total=TotalMinutos*cobro_moto
     elif tipo==3:
-        total=TotalMinutos*cobro_moto
+        total=TotalMinutos*cobro_cicla
     print("El total a pagar es: "+str(total))
 
 """
 #Lugar para parquear:
 parqueo=("Ingrese el piso en el que desea parquear:")
-listaparp1c=[101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,160]
+listaparp1c=[[101,0],[102,1],103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,160]
 listaparp1c.append()
 listaparqp1m=[161,162,163,164,165,166,167,168,169,170]
 listaparqp1m.append()
