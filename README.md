@@ -58,4 +58,8 @@ y para terminar el algoritmo que necesita de la librería datatime en el cual de
 
 en está parte del código irían los cupos del parqueaderos puestos de asignación y disponibilidad del mismo pero lamentablemente no logramos concretar este requerimento y no funciona esta parte del codigo por eso la dejamos comentada pero la idea en un principio era asignar una lista por cada piso pensamos que todo el piso uno fuera destinado a bicicletas y motos ya que es donde necesitamos pocos cupos y el piso dos y tres serían destinados para carros ya que nos piden más cupos usando matrices por ejemplo,
 piso_uno=[[101,0],[102,1]] donde piso_uno[0] es [101,0] y piso_uno[0][0] es 101 que es la posicion del estacionamiento y por ultimo piso_uno[0][1] es 0 que es la disponibilidad
-donde 0 es que está libre y 1 que está ocupado, pero como explique desde un principio se quedo como una idea porque no logramos concretarla :'C
+donde 0 es que está libre y 1 que está ocupado, pero como explique desde un principio se quedo como una idea porque no logramos concretarla. :'C
+
+![agradecimiento](https://user-images.githubusercontent.com/88093015/134284431-d6a299c4-e870-4513-8beb-d901b094ec65.PNG)
+
+por último en el programa damos las gracias al usuario por usar nuestro servicio, le pedimos que por favor realice el pago correspondiente en caja y le deseamos un feliz dia y además le decimos que vuelva pronto.
