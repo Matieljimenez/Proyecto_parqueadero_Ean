@@ -1,7 +1,7 @@
 # Proyecto_parqueadero_Ean
 En este repositorio realizamos un proyecto en el cual generamos un programa útil para lo que se comprende del funcionamiento de un parqueadero
 
-![empleado](https://user-images.githubusercontent.com/88093015/134273025-a758eb4e-2ee5-4f6e-ab4b-76664bda915e.PNG)
+![empleado](https://user-images.githubusercontent.com/88093015/134287788-000752fb-7bf4-41a0-b08c-9a92a36178dd.PNG)
 
 En la primera parte del codigo lo que hicimos fue preguntar a la persona que ingrese si es empleado o usuario del parqueadero en caso de que sea empleado
 se activara está parte del codigo que dará la bienvenida al usuario y en caso de ser empleado le pedirá que ingrese su usuario y contraseña hasta que sea
@@ -34,8 +34,6 @@ luego se registran en dos variables que despues las pasaremos con un formato esp
 en está parte del código se usa una variable dias en el cual se calcula si el vehiculo ingresó y salió el mismo día, en caso de ser así se ejecuta este código y calculará
 los minutos transcurridos.
 
-
-
 ![dia_siguiente](https://user-images.githubusercontent.com/88093015/134278345-b50255e0-0da9-4931-82fc-64c19b52749d.PNG)
 
 si la estadía del vehículo es de un día para otro por ejemplo, si el vehículo entra a las 11 PM y sale a la 1 AM el código anterior al que está arriba dará error entonces
@@ -50,11 +48,11 @@ Este sería el ejemplo practico-visual anterior.
 si por alguna razón el usuario lleva estacionado en el parqueadero más de 1 día se debe calcular de otra manera el tiempo transcurrido en él, para eso restamos 1 día que es
 el equivalente a las horas de el vehículo el dia de retirar y el resto de tiempo seran las 24 horas por cada día transcurrido, por ultimo haríamos la conversión de horas a minutos para poder calcular el cobro de los usuarios por sus vehículos.
 
-![total_cobrar](https://user-images.githubusercontent.com/88093015/134281068-df9b32ec-af60-466e-8aa0-676fd88220de.PNG)
+![total_cobrar](https://user-images.githubusercontent.com/88093015/134286320-3197c985-cb14-42eb-b413-55209fc2a54f.PNG)
 
 y para terminar el algoritmo que necesita de la librería datatime en el cual definimos el cobro por minuto de todos los tipos de vehículos, preguntandole al usuario su numero de identificacion para saber si ha estado en el parqueadero más de 5 veces y obtener un descuento del 20 % en el saldo total a pagar y se calculan los precios a pagar por cada tipo de vehículo según el tiempo permanecido en el parqueadero por el cliente.
 
-![cupos](https://user-images.githubusercontent.com/88093015/134282953-ab65d650-a1c8-4239-bed9-9db5537af43a.PNG)
+![cupos](https://user-images.githubusercontent.com/88093015/134286342-e6cf2e9e-1bd1-49eb-818b-6ca784640232.PNG)
 
 en está parte del código irían los cupos del parqueaderos puestos de asignación y disponibilidad del mismo pero lamentablemente no logramos concretar este requerimento y no funciona esta parte del codigo por eso la dejamos comentada pero la idea en un principio era asignar una lista por cada piso pensamos que todo el piso uno fuera destinado a bicicletas y motos ya que es donde necesitamos pocos cupos y el piso dos y tres serían destinados para carros ya que nos piden más cupos usando matrices por ejemplo,
 piso_uno=[[101,0],[102,1]] donde piso_uno[0] es [101,0] y piso_uno[0][0] es 101 que es la posicion del estacionamiento y por ultimo piso_uno[0][1] es 0 que es la disponibilidad
@@ -63,3 +61,23 @@ donde 0 es que está libre y 1 que está ocupado, pero como explique desde un pr
 ![agradecimiento](https://user-images.githubusercontent.com/88093015/134284431-d6a299c4-e870-4513-8beb-d901b094ec65.PNG)
 
 por último en el programa damos las gracias al usuario por usar nuestro servicio, le pedimos que por favor realice el pago correspondiente en caja y le deseamos un feliz dia y además le decimos que vuelva pronto.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Funcionamiento del programa
+
+![empleado_entrada](https://user-images.githubusercontent.com/88093015/134286890-a7264a59-1ed2-46b8-a208-3b1daeac6ebc.PNG)
+
+Cuando el usuario es empleado o no es empleado y si la contraseña es correcta o incorrecta.
+
+![sin_descuento](https://user-images.githubusercontent.com/88093015/134287569-13461e9e-32ca-43c0-8e2c-322a90aa9cb5.PNG)
+
+cuando se registra un usuario sin descuento.
+
+![descuento](https://user-images.githubusercontent.com/88093015/134287590-988d3ebc-cd43-45bf-a12f-c34f6487c680.PNG)
+
+cuando se registra un usuario con descuento.
+
+Muchas gracias por su atención
+
+Fin del proyecto
