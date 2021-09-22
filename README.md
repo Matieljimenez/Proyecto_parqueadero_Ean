@@ -14,3 +14,7 @@ sistema del parqueadero y poder hacer el ingreso al parqueadero y respectivament
 que estará en un try para que el usuario ingrese un numero positivo como lo son todas las identificaciónes, seguido de esto se pedirá que especifique el tipo de
 vehiculo con el que se va a ingresar al parqueadero.
 
+![placa_bici](https://user-images.githubusercontent.com/88093015/134275002-4f18d6ab-4d0f-47ba-9c6f-6cbf34b9db68.PNG)
+
+y por ultimo en está parte se pedirá la placa en caso de ser un carro ó moto, en caso de ser bicicleta se
+pedirá un numero de registro de la bicicleta para poder ingresarla que consta de un maximo de 8 digitos.
