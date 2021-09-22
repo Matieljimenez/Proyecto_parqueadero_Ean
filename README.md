@@ -6,3 +6,11 @@ En este repositorio realizamos un proyecto en el cual generamos un programa úti
 En la primera parte del codigo lo que hicimos fue preguntar a la persona que ingrese si es empleado o usuario del parqueadero en caso de que sea empleado
 se activara está parte del codigo que dará la bienvenida al usuario y en caso de ser empleado le pedirá que ingrese su usuario y contraseña hasta que sea
 correcta registrando el ingreso del empleado en una lista.
+
+![Usuario](https://user-images.githubusercontent.com/88093015/134273930-a1eb84fc-ef1a-4224-82d0-b890596f5640.PNG)
+
+En caso de que el usuario dijite que no es empleado se desplagará la siguente parte del codigo que le preguntará los datos al usuario para ingresarlo al
+sistema del parqueadero y poder hacer el ingreso al parqueadero y respectivamente cobrar la estadia en el mismo, le preguntará el nombre, número de identificación 
+que estará en un try para que el usuario ingrese un numero positivo como lo son todas las identificaciónes, seguido de esto se pedirá que especifique el tipo de
+vehiculo con el que se va a ingresar al parqueadero.
+
