@@ -23,4 +23,9 @@ pedirá un numero de registro de la bicicleta para poder ingresarla que consta d
 
 Importamos la librería datatime de los recursos que nos proporciona python en el cúal pedimos la fecha para calcular los dias transcurridos cosa que nos ayuda mucho más
 adelante, támbien pedimos la hora de entrada al parqueadero y la hora de salida para calcular los minutos de estancia en el parqueadero ya que de está manera es como se
-le va a cobrar al usuario, luego se registran en dos variables que despues las pasaremos con un formato especifico para poder hacer cualculos con estos datos.
+le va a cobrar al usuario.
+
+![Horas](https://user-images.githubusercontent.com/88093015/134277267-541b4d82-e1ee-4c4e-bd7e-46fa33257f06.PNG)
+
+luego se registran en dos variables que despues las pasaremos con un formato especifico para poder hacer cualculos correspondientes con estos datos.
+
