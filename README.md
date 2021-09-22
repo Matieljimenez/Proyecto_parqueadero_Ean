@@ -29,3 +29,7 @@ le va a cobrar al usuario.
 
 luego se registran en dos variables que despues las pasaremos con un formato especifico para poder hacer cualculos correspondientes con estos datos.
 
+![mismo_dia](https://user-images.githubusercontent.com/88093015/134277739-17628af3-e1dc-4df0-97bf-e1f8da28992e.PNG)
+
+en está parte del código se usa una variable dias en el cual se calcula si el vehiculo ingresó y salió el mismo día, en caso de ser así se ejecuta este código y calculará
+los minutos transcurridos.
