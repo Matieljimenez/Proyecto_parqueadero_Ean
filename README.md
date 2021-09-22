@@ -34,6 +34,8 @@ luego se registran en dos variables que despues las pasaremos con un formato esp
 en está parte del código se usa una variable dias en el cual se calcula si el vehiculo ingresó y salió el mismo día, en caso de ser así se ejecuta este código y calculará
 los minutos transcurridos.
 
+
+
 ![dia_siguiente](https://user-images.githubusercontent.com/88093015/134278345-b50255e0-0da9-4931-82fc-64c19b52749d.PNG)
 
 si la estadía del vehículo es de un día para otro por ejemplo, si el vehículo entra a las 11 PM y sale a la 1 AM el código anterior al que está arriba dará error entonces
@@ -41,4 +43,8 @@ para eso se pide la fecha para calcular el día, al saber que salió un día des
 
 ![Ejemplo](https://user-images.githubusercontent.com/88093015/134280170-2eb11902-e8d7-4023-bb08-257c1815e4b8.PNG)
 
-Este sería el ejemplo practico-visual anterior
+Este sería el ejemplo practico-visual anterior.
+
+![total_cobrar](https://user-images.githubusercontent.com/88093015/134281068-df9b32ec-af60-466e-8aa0-676fd88220de.PNG)
+
+y para terminar el algoritmo que necesita de la librería datatime en el cual definimos el cobro por minuto de todos los tipos de vehículos, preguntandole al usuario su numero de identificacion para saber si ha estado en el parqueadero más de 5 veces y obtener un descuento del 20 % en el saldo total a pagar y se calculan los precios a pagar por cada tipo de vehículo según el tiempo permanecido en el parqueadero por el cliente.
