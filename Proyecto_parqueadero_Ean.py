@@ -6,12 +6,14 @@ if(usuario==1):
  while True:
   empleado=input("Digite Usuario: ")
   if(empleado==lista[0]):
-   contraseña=input("Digite contraseña: ")
-   if(contraseña==lista[1]):
-     print("Bienvenido ")
-     break
-   else:
-     print("Contraseña incorrecta")
+   while (empleado==lista[0])==True:
+    contraseña=input("Digite contraseña: ")
+    if(contraseña==lista[1]):
+      print("Bienvenido ")
+      break
+    else:
+      print("Contraseña incorrecta")
+   break
   else:
     print("Usuario incorrecto")
 
