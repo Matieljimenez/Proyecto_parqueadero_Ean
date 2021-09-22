@@ -33,3 +33,12 @@ luego se registran en dos variables que despues las pasaremos con un formato esp
 
 en está parte del código se usa una variable dias en el cual se calcula si el vehiculo ingresó y salió el mismo día, en caso de ser así se ejecuta este código y calculará
 los minutos transcurridos.
+
+![dia_siguiente](https://user-images.githubusercontent.com/88093015/134278345-b50255e0-0da9-4931-82fc-64c19b52749d.PNG)
+
+si la estadía del vehículo es de un día para otro por ejemplo, si el vehículo entra a las 11 PM y sale a la 1 AM el código anterior al que está arriba dará error entonces
+para eso se pide la fecha para calcular el día, al saber que salió un día despúes y se ejecute está parte del código donde se guarda el tiempo real de entrada y una hora relativa de salida donde fijamos las 12 AM en hora militar, como no se puede fijar las 24 horas se fijan 23:59:59 y luego se suma el segundo faltante paras las 24, luego restamos la hora de salida con la hora relativa 12 AM entonces de la 1 AM a las 12 AM hay una hora y sumamos la hora de entrada con la hora de salida lo que nos da el tiempo transcurrido de 2 horas equivalentes a 120 minutos.
+
+![Ejemplo](https://user-images.githubusercontent.com/88093015/134280170-2eb11902-e8d7-4023-bb08-257c1815e4b8.PNG)
+
+Este sería el ejemplo practico-visual anterior
