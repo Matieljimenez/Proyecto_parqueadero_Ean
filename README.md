@@ -45,6 +45,17 @@ para eso se pide la fecha para calcular el día, al saber que salió un día des
 
 Este sería el ejemplo practico-visual anterior.
 
+![más_dias](https://user-images.githubusercontent.com/88093015/134282339-baa1f9d8-be21-458b-8ab9-73f52947d8a7.PNG)
+
+si por alguna razón el usuario lleva estacionado en el parqueadero más de 1 día se debe calcular de otra manera el tiempo transcurrido en él, para eso restamos 1 día que es
+el equivalente a las horas de el vehículo el dia de retirar y el resto de tiempo seran las 24 horas por cada día transcurrido, por ultimo haríamos la conversión de horas a minutos para poder calcular el cobro de los usuarios por sus vehículos.
+
 ![total_cobrar](https://user-images.githubusercontent.com/88093015/134281068-df9b32ec-af60-466e-8aa0-676fd88220de.PNG)
 
 y para terminar el algoritmo que necesita de la librería datatime en el cual definimos el cobro por minuto de todos los tipos de vehículos, preguntandole al usuario su numero de identificacion para saber si ha estado en el parqueadero más de 5 veces y obtener un descuento del 20 % en el saldo total a pagar y se calculan los precios a pagar por cada tipo de vehículo según el tiempo permanecido en el parqueadero por el cliente.
+
+![cupos](https://user-images.githubusercontent.com/88093015/134282953-ab65d650-a1c8-4239-bed9-9db5537af43a.PNG)
+
+en está parte del código irían los cupos del parqueaderos puestos de asignación y disponibilidad del mismo pero lamentablemente no logramos concretar este requerimento y no funciona esta parte del codigo por eso la dejamos comentada pero la idea en un principio era asignar una lista por cada piso pensamos que todo el piso uno fuera destinado a bicicletas y motos ya que es donde necesitamos pocos cupos y el piso dos y tres serían destinados para carros ya que nos piden más cupos usando matrices por ejemplo,
+piso_uno=[[101,0],[102,1]] donde piso_uno[0] es [101,0] y piso_uno[0][0] es 101 que es la posicion del estacionamiento y por ultimo piso_uno[0][1] es 0 que es la disponibilidad
+donde 0 es que está libre y 1 que está ocupado, pero como explique desde un principio se quedo como una idea porque no logramos concretarla :'C
