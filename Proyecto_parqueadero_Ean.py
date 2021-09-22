@@ -2,16 +2,18 @@ print("¡¡BIENVENIDO AL PARQUEADERO DE LA UNIVERSIDAD EAN!! ")
 
 usuario=int(input("Si eres empleado del parqueadero ingresa 1 si eres usuario 0:"))
 if(usuario==1):
- empleado=(input("Digite Usuario: "))
- contraseña=((input("Digite contraseña:")))
  lista=["lorena","1234"]
  while True:
   empleado=input("Digite Usuario: ")
-  contraseña=input("Digite contraseña: ")
   if(empleado==lista[0]):
+   contraseña=input("Digite contraseña: ")
    if(contraseña==lista[1]):
      print("Bienvenido ")
-  break
+     break
+   else:
+     print("Contraseña incorrecta")
+  else:
+    print("Usuario incorrecto")
 
 if(usuario==0):     
  n=input("Ingrese su nombre completo: ")
